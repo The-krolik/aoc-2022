@@ -30,7 +30,7 @@ int main() {
 
 	for (int i = 0; i < 3; i++) {
 		grand_total += list[i];
-		printf("%d\n", list[i]);
+		printf("%d: %d\n", i, list[i]);
 	}
 	printf("grand total: %d\n", grand_total);
 	
