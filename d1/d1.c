@@ -33,7 +33,8 @@ int main() {
 		printf("%d: %d\n", i, list[i]);
 	}
 	printf("grand total: %d\n", grand_total);
-	
+	fclose(fp);
+
 	return 0;
 }
 
